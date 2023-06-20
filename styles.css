@@ -4,11 +4,13 @@
 
 #main-head{
     font-size: 4.5rem;
-    font-weight: bolder;
+    font-weight: bold;
     color: blue;
-    font-family: 'Montserrat', sans-serif;
+    font-family:  'Montserrat', sans-serif;
     font-style: italic;
+    text-decoration: none;
     text-align: center;
+    padding: 20%;
 }
 
 .iframe-container{
@@ -16,7 +18,7 @@
     border-radius: 2%;
     padding: 2%;
     border-style: none;
-    margin:0 2% ;
+    margin:3% 2% ;
 }
 
 #index-head,.story-head{
@@ -33,7 +35,7 @@
     line-height: 2.5rem;
 }
 
-.index-content:hover, .testimonial-head:hover{
+.index-content:hover, .testimonial-head:hover, #main-head:hover{
     color: blueviolet;
     text-decoration: underline;
 }
